@@ -1,0 +1,89 @@
+div {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+.page-titel {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: 2px;
+    padding-left: 15px;
+}
+
+.nav-link {
+    color: black;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header {
+    padding-top: 20px;
+}
+
+:activelink {
+    color: green;
+}
+
+.nav-link:hover {
+    color: black !important;
+}
+
+.nav-link {
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.nav-link {
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: 0;
+    left: 20%;
+    background-color: black;
+    transition: width 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+    width: 60%;
+}
+
+.lead {
+    font-size: 16px;
+}
+
+.contactlink {
+    color: black;
+    font-size: 14px;
+}
+
+.container {
+    padding: 0px;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+.containercontact {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+}
+
+.extra-space {
+    margin-bottom: 50px;
+}
